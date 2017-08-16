@@ -3,3 +3,7 @@ class PlacesController < ApplicationController
           @places = Place.all
      end
 end
+
+#def index
+ # @tasks = Task.search(params[:term], params[:page])
+#end
