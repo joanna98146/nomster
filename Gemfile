@@ -58,3 +58,4 @@ gem 'rails-assets-tether', '>= 1.3.3'
 end 
 
 gem 'bootstrap-will_paginate', '~> 1.0'
+gem 'simple_form'
