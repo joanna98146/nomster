@@ -5,3 +5,13 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+#
+# To Run:  $ rails db:seed
+# 
+
+# Reset database
+Place.destroy_all
+
+# Add places here
+#Place.create!(name: ????, address: ???, description: ???)
