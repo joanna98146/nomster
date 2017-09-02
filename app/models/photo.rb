@@ -4,3 +4,7 @@ class Photo < ApplicationRecord
   belongs_to :photo
 end
 
+
+class Photo < ActiveRecord::Base
+  mount_uploader :picture, PictureUploader
+end
