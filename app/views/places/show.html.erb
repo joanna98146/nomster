@@ -95,3 +95,10 @@
 <% end %>
 </div>
 
+
+<% @place.photos.each do |photo| %>
+  <div class="col-6">
+    <%= image_tag photo.picture, class: 'img-responsive' %>
+    <%= photo.caption %>
+  </div>
+<% end %>
