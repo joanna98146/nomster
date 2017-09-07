@@ -42,7 +42,7 @@
 <div class="col-10 offset-1">
     <h1 class="float-left">Comments</h1>
 <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary btn-lg float-right" data-toggle="modal" data-target="#myModal">
+    <button type="button" class="btn btn-primary float-right" data-toggle="modal" data-target="#myModal">
       Add a comment
     </button>
 </div>
@@ -66,7 +66,7 @@
           <%= f.input :rating, as: :select, collection: Comment::RATINGS %>
   </div>
     <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
           <%= f.submit "Add a Comment", class: 'btn btn-primary' %>
     </div>
         <% end %>
